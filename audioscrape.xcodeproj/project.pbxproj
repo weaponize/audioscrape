@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92C97E86143213BF002D4084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C97E85143213BF002D4084 /* Foundation.framework */; };
+		92C97E89143213BF002D4084 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C97E88143213BF002D4084 /* main.m */; };
+		92C97E8D143213BF002D4084 /* audioscrape.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92C97E8C143213BF002D4084 /* audioscrape.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92C97E7F143213BF002D4084 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				92C97E8D143213BF002D4084 /* audioscrape.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		92C97E81143213BF002D4084 /* audioscrape */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = audioscrape; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C97E85143213BF002D4084 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92C97E88143213BF002D4084 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92C97E8B143213BF002D4084 /* audioscrape-Prefix.pch */ = {isa = PBXFileReference; path = "audioscrape-Prefix.pch"; sourceTree = "<group>"; };
+		92C97E8C143213BF002D4084 /* audioscrape.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = audioscrape.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92C97E7E143213BF002D4084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C97E86143213BF002D4084 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92C97E76143213BF002D4084 = {
+			isa = PBXGroup;
+			children = (
+				92C97E87143213BF002D4084 /* audioscrape */,
+				92C97E84143213BF002D4084 /* Frameworks */,
+				92C97E82143213BF002D4084 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92C97E82143213BF002D4084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C97E81143213BF002D4084 /* audioscrape */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C97E84143213BF002D4084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92C97E85143213BF002D4084 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92C97E87143213BF002D4084 /* audioscrape */ = {
+			isa = PBXGroup;
+			children = (
+				92C97E88143213BF002D4084 /* main.m */,
+				92C97E8C143213BF002D4084 /* audioscrape.1 */,
+				92C97E8A143213BF002D4084 /* Supporting Files */,
+			);
+			path = audioscrape;
+			sourceTree = "<group>";
+		};
+		92C97E8A143213BF002D4084 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92C97E8B143213BF002D4084 /* audioscrape-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92C97E80143213BF002D4084 /* audioscrape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C97E90143213BF002D4084 /* Build configuration list for PBXNativeTarget "audioscrape" */;
+			buildPhases = (
+				92C97E7D143213BF002D4084 /* Sources */,
+				92C97E7E143213BF002D4084 /* Frameworks */,
+				92C97E7F143213BF002D4084 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = audioscrape;
+			productName = audioscrape;
+			productReference = 92C97E81143213BF002D4084 /* audioscrape */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92C97E78143213BF002D4084 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 92C97E7B143213BF002D4084 /* Build configuration list for PBXProject "audioscrape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92C97E76143213BF002D4084;
+			productRefGroup = 92C97E82143213BF002D4084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C97E80143213BF002D4084 /* audioscrape */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92C97E7D143213BF002D4084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C97E89143213BF002D4084 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		92C97E8E143213BF002D4084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		92C97E8F143213BF002D4084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		92C97E91143213BF002D4084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "audioscrape/audioscrape-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92C97E92143213BF002D4084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "audioscrape/audioscrape-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C97E7B143213BF002D4084 /* Build configuration list for PBXProject "audioscrape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C97E8E143213BF002D4084 /* Debug */,
+				92C97E8F143213BF002D4084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C97E90143213BF002D4084 /* Build configuration list for PBXNativeTarget "audioscrape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C97E91143213BF002D4084 /* Debug */,
+				92C97E92143213BF002D4084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92C97E78143213BF002D4084 /* Project object */;
+}
