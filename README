@@ -1,0 +1,31 @@
+Audio Scraper is a simple console utility that saves the audio from a video file for use in listening to in iTunes.  It's totally a stupid mac thing, so sorry.
+This is an example of using the AVFoundation API.
+
+Audioscrape:
+
+    Default Mode:
+        audioscrape source.m4v dest.m4a
+
+        In default mode, just treat the first 2 args like source video and dest audio.
+
+    Batch Mode:
+        audioscrape -b -e <num> -o <list of sources>  
+
+        -b : enable batch mode
+
+        Batch mode treats all the arguments like source .m4v files
+        Destination filenames are inferred from each source path.
+
+        -o : overwrite destination files
+
+        By default audioscrape will not overwrite an existing file.
+
+        -e <exporters> : define the number of exporters to use
+
+        Each exporter seems to spawn about 8 threads each. The number of exporters is 32 by default.
+
+
+Bugs:
+
+    Large values to -e will cause segfaults, presumably due to the large number of threads created. Each exporter
+    seems to create about 8 threads each. 
